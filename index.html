@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE M.D.</h3>
+                <p class="descricao">Um médico dissidente e anti-social, que se especializou em medicina de diagnóstico. Faz o que for preciso para resolver casos intrigantes que estão no seu caminho, usando a sua equipe de médicos e sua inteligência.</p>
+                <div class="botoes">
+                    <button onclick="location.href='https://www.youtube.com/watch?v=MczMB8nU1sY'" role="button" class="botao">
+                        <i class="far fa-play-circle"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <!-- Mais informações abre em outra janela -->
+                    <button onclick=" window.open('https://www.imdb.com/title/tt0412142/','blank')" role="button" class="botao">
+                        <i class="fas fa-info"></i>
+                        MAIS INFORMAÇÕES 
+                    </button>
+                </div>
+            </div>          
+        </div>
+    </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/mini_attraction.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_badboys.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_blacklist.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_gambitodarainha.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_gooddoctor.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_greysanatomy.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_os100.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_power.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_princesaeaplebeia.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_qualquercusto.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_rapina.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_simpson.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_supernatural.jpg" alt="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/mini_umbrella.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4705e16c98.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
